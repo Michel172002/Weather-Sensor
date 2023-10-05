@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        final String URL_GET_BASE =  "https://api.hgbrasil.com/weather?fields=only_results,temp,date,description,currently,city,humidity,rain,sunrise,sunset,moon_phase&key=4b390769&woeid=";        String teste = "455912";
+        final String URL_GET_BASE =  "https://api.hgbrasil.com/weather?fields=only_results,temp,date,description,currently,city,humidity,rain,sunrise,sunset,moon_phase&key=4b390769&woeid=";
         String sjc = URL_GET_BASE + "455912";
         String canoinhas = URL_GET_BASE + "456116";
         String sp = URL_GET_BASE + "455827";
